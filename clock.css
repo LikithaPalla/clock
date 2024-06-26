@@ -1,0 +1,214 @@
+main
+{
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+.p
+{
+    width: 30%;
+    height: 55%;
+    border-radius: 100%;
+    position: absolute;
+    left: 35%;
+    top: 20%;
+    border: 15px solid #6F4E37 ;
+    box-shadow: 3px 3px 5px grey;
+}
+.c
+{
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQl39-2eCau7UIG3X1JLVTo2QK8GWq_EeTbNQ&s");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 98%;
+    height: 98%;
+    border-radius: 100%;
+    border: 5px solid #A67B5B;
+    position: relative;
+    color:#6F4E37 ;
+    font-size: 50px;
+    font-style: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.n12
+{
+    position: absolute;
+    top: 2%;
+    left: 45%;
+}
+.n1
+{
+    position: absolute;
+    top: 8%;
+    left: 68%;
+}
+.n2
+{
+    position: absolute;
+    top: 21%;
+    left: 83%;
+}
+.n3
+{
+    position: absolute;
+    top: 42%;
+    left: 90%;
+}
+.n4
+{
+    position: absolute;
+    top: 63%;
+    left: 83%;
+}
+.n5
+{
+    position: absolute;
+    top: 76%;
+    left: 68%;
+}
+.n6
+{
+    position: absolute;
+    top: 85%;
+    left: 48%;
+}
+.n7
+{
+    position: absolute;
+    top: 77%;
+    left: 27%;
+}
+.n8
+{
+    position: absolute;
+    top: 64%;
+    left: 10%;
+}
+.n9
+{
+    position: absolute;
+    top: 43%;
+    left: 3%;
+}
+.n10
+{
+    position: absolute;
+    top: 21%;
+    left: 8%;
+}
+.n11
+{
+    position: absolute;
+    top: 6%;
+    left: 25%;
+}
+.center1
+{
+    background-color: #6F4E37;
+    height: 5%;
+    width: 5%;
+    border-radius: 100%;
+    position: absolute;
+    left: 48%;
+    top: 47%;
+    animation-name: seconds;
+    animation-duration: 60s;
+    animation-iteration-count: infinite;
+}
+.center2
+{
+    background-color: #6F4E37;
+    height: 5%;
+    width: 5%;
+    border-radius: 100%;
+    position: absolute;
+    left: 48%;
+    top: 47%;
+    animation-name: minutes;
+    animation-duration: 3600s;
+    animation-iteration-count: infinite;
+}
+.center3
+{
+    background-color: #6F4E37;
+    height: 5%;
+    width: 5%;
+    border-radius: 100%;
+    position: absolute;
+    left: 48%;
+    top: 47%;
+    animation-name: hours;
+    animation-duration: 216000s;
+    animation-iteration-count: infinite;
+}
+.center
+{
+    background-image: url("../images-removebg-preview.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 7%;
+    width: 7%;
+    border-radius: 100%;
+    position: absolute;
+    left: 47%;
+    top: 46%;
+}
+.sneedle
+{
+    height: 500%;
+    width: 100%;
+    position: absolute;
+    bottom: 5%;
+}
+.mneedle
+{
+    height: 650%;
+    width: 300%;
+    position: absolute;
+    bottom: 5%;
+    left: -22px;
+}
+.hneedle
+{
+    height: 500%;
+    width: 500%;
+    position: absolute;
+    bottom: 5%;
+    left: -45px;
+}
+@keyframes seconds
+{
+    0%
+    {
+        transform: rotate(0deg) ;
+    }
+    100%
+   {
+        transform: rotate(360deg) ;
+   }
+
+}
+@keyframes minutes
+{
+    0%
+    {
+        transform: rotate(30deg);
+    }
+    100%
+   {
+    transform: rotate(360deg);
+   }
+
+}
+@keyframes hours
+{
+    0%
+    {
+        transform: rotate(0deg);
+    }
+    100%
+   {
+    transform: rotate(360deg) ;
+   }
+
+}
